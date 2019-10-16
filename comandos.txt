@@ -1,4 +1,37 @@
+******************
+Para criar repositório git:
+echo "# SemanasOmniStack" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/LariSantin/SemanasOmniStack.git
+	git push -u origin master
+
+- Para mudar url do projeto basta fazer
+	git remote set-url origin "url"
+- Para remover: git remote rm origin
+
+******************
+
 - Para instalar o chocolatey, tem tutorial no site:
 	(https://chocolatey.org/)
+
 - Para instalar o yarn:
 	choco install yarn
+
+- Inicializa: yarn init -y
+
+- Adicionando dependencia: 
+	yarn add express  (gerencia as rotas)
+	yarn add nodemon -D
+
+- No package.json criar:
+	"scripts": {
+		"dev": "nodemon src/server.js"
+	},
+	Comando: yarn dev 
+
+-
+	Isso executa o codigo sempre e detecta as alterações;
+
+-
