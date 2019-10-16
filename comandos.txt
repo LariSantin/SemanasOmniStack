@@ -1,0 +1,4 @@
+- Para instalar o chocolatey, tem tutorial no site:
+	(https://chocolatey.org/)
+- Para instalar o yarn:
+	choco install yarn
