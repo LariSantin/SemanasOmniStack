@@ -8,4 +8,4 @@ routes.post('/users', (req, res) => {
 
 module.exports = routes;
 
-// 30 minutos video 2
+// 38 minutos video 2
